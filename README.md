@@ -20,7 +20,7 @@ Otherwise, the (possibly empty) list of available metadata keys is passed as
 `keys`: an array of strings.
 
 ```javascript
-var mod_mdata = require('mdata');
+var mod_mdata = require('mdata-client');
 
 mod_mdata.list(function (err, keys) {
   if (err) {
@@ -45,7 +45,7 @@ If the metadata value was returned successfully, it will be passed as a string
 in the `value` callback argument.
 
 ```javascript
-var mod_mdata = require('mdata');
+var mod_mdata = require('mdata-client');
 
 mod_mdata.get('user-script', function (err, value) {
   if (err) {
@@ -71,7 +71,7 @@ called without arguments.  Otherwise, an `Error` will be passed in the `err`
 argument.
 
 ```javascript
-var mod_mdata = require('mdata');
+var mod_mdata = require('mdata-client');
 
 mod_mdata.put('platform', process.platform, function (err, value) {
   if (err) {
@@ -92,7 +92,7 @@ callback will be called without arguments.  Otherwise, an `Error` will be
 passed in the `err` argument.
 
 ```javascript
-var mod_mdata = require('mdata');
+var mod_mdata = require('mdata-client');
 
 mod_mdata.del('secret_password', function (err) {
   if (err) {
