@@ -1,10 +1,13 @@
 {
   "name": "mdata-client",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Joyent Metadata Client",
   "repository": {
     "type": "git",
     "url": "git://github.com/joyent/node-mdata-client.git"
+  },
+  "scripts": {
+    "check": "jshint *.js lib/*.js"
   },
   "keywords": [
     "joyent",
@@ -17,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/joyent/node-mdata-client/issues"
   },
-  "homepage": "https://github.com/joyent/node-mdata-client"
+  "homepage": "https://github.com/joyent/node-mdata-client",
+  "dependencies": {
+    "assert-plus": "^0.1.5",
+    "verror": "^1.4.0"
+  }
 }
