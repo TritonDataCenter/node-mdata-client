@@ -1,0 +1,21 @@
+{
+  "name": "mdata-client",
+  "version": "0.0.0",
+  "description": "Joyent Metadata Client",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joyent/node-mdata-client.git"
+  },
+  "keywords": [
+    "joyent",
+    "sdc",
+    "mdata",
+    "smartos"
+  ],
+  "author": "Joshua M. Clulow <jmc@joyent.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joyent/node-mdata-client/issues"
+  },
+  "homepage": "https://github.com/joyent/node-mdata-client"
+}
