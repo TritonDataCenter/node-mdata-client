@@ -4,7 +4,7 @@
   "description": "Joyent Metadata Client",
   "repository": {
     "type": "git",
-    "url": "git://github.com/joyent/node-mdata-client.git"
+    "url": "https://github.com/joyent/node-mdata-client.git"
   },
   "scripts": {
     "check": "jshint *.js lib/*.js"
