@@ -1,10 +1,10 @@
 {
   "name": "mdata-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Joyent Metadata Client",
   "repository": {
     "type": "git",
-    "url": "git://github.com/joyent/node-mdata-client.git"
+    "url": "https://github.com/joyent/node-mdata-client.git"
   },
   "scripts": {
     "check": "jshint *.js lib/*.js"
